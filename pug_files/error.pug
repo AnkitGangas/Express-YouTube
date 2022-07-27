@@ -1,0 +1,13 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title #{doc}
+  link(rel='stylesheet' href='error.css')
+#error-page
+  .content
+    h2.header(data-text='404') 404
+    h4(data-text='Opps! Page not found') Opps! Page not found
+    p
+      | Sorry, the page you&apos;re looking for doesn&apos;t exist. If you think something is broken, report a problem.
+    .btns
+      a(href='/') return home
